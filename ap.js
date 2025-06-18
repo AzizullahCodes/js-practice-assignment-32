@@ -162,10 +162,74 @@
 // toPrecision(6): 9876.54
 // ___________________________
 // ans 
-let value = 9876.54321;
+// let value = 9876.54321;
     // value = value.toPrecision(2);
     // console.log(value);
 //    value = value.toPrecision(4);
 //    console.log(value);
-value = value.toPrecision(6);
-console.log(value);
+// value = value.toPrecision(6);
+// console.log(value);
+// _______________________________________________________________________________________
+// ques no 10
+// 
+// Write a JavaScript program that:
+// Generates a random integer between 1 and 50 (inclusive).
+// Generates a second random integer between 100 and 200 (inclusive).
+// Outputs both random numbers.
+// Outputs their sum.
+// ✅ Expected Output Example
+// Your program should print something like this in the console 
+// (values will be different each time because they’re random):
+
+// First random number (1 to 50): 27
+// Second random number (100 to 200): 145
+// Sum of both numbers: 172
+// _______________
+// ans 
+// let random = Math.random()*50;
+//     random = random + 1;
+//     random = Math.floor(random);
+// console.log(random);
+// let random2 = Math.random()*200;
+//     random2 = random2 + 100;
+//     random2 = Math.floor(random2);
+//     console.log(random2);
+//     let sum = random + random2;
+//     console.log(sum);
+// ___________________________________________________________________________________
+// ques no 11
+// converting string to number
+// _____________
+// ans 
+// let number = '23.7865';
+// console.log(number);
+// console.log(typeof number);
+//     number = + number;
+//     console.log(number);
+//     console.log(typeof number);
+//    number = parseInt(number);
+//    console.log(number);
+//    console.log(typeof number);
+//  number = parseFloat(number);
+//  console.log(number);
+//  console.log(typeof number);
+// number = Number(number);
+// console.log(number);
+// console.log(typeof number);
+// _________________________________________________________________________________________
+// ques no 12
+// converting number to string
+// ___________
+// ans 
+// let number = 34.3452;
+// console.log(number);
+// console.log(typeof number);
+//  number = number.toString();
+//  console.log(number);
+//  console.log(typeof number);
+//    number = String(number);
+//    console.log(number);
+//    console.log(typeof number);
+// number = number + '';
+// console.log(number);
+// console.log(typeof number);
