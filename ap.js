@@ -653,3 +653,25 @@
 // }
 // ______________________________________________________________________________________
 // ques no 49
+// Enlarge a Button on Hover
+// Goal:
+// Create a <button> with text Hover me!.
+// When you hover over it, increase its size (e.g., style.transform or style.
+// fontSize).
+// When you move the mouse away, restore it to the original size.
+// function changeSize(){document.getElementById('btn').style.width = '200px';}
+// function original(){document.getElementById('btn').style.width = '';}
+// ____________________________________________________________________________________________
+// ques no 50
+let count = 0;
+function updateCounter(){document.getElementById('counter').innerHTML = count;}
+
+function increment(){count++;
+    updateCounter()
+}
+function decrement(){count--;
+    updateCounter();
+}
+function reset(){count = 0;
+    updateCounter();
+}
