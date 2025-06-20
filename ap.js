@@ -696,13 +696,13 @@
 // When you click the button, change the <h1> text color to red.
 // ______________________________
 // ans 
-// function changeColor(){document.getElementById('heading').style.color = 'red';}
+ function changeColor(){document.getElementById('heading').style.color = 'red';}
 // _________________________________________________________________________________
 // ques no 53
 // Write a function changeHeading that changes the <h1> text to "Welcome to JavaScript!" using .innerHTML.
 // _____________
 // ans 
-// function changeText(){document.getElementById('heading').innerHTML = 'Welcome to backend learning';}
+ function changeText(){document.getElementById('heading').innerHTML = 'Welcome to backend learning';}
 // ________________________________________________________________________________________
 // ques no 54
 // Get Value and Show in a <p>
@@ -714,6 +714,6 @@
 // When you type “I love JS” and click the button, the <p> shows: I love JS
 // _________________
 // ans 
-// function pushValue(){let x = document.getElementById('inp').value;
-//     document.getElementById('pp').innerHTML = x;
-// }
+ function pushValue(){let x = document.getElementById('inp').value;
+     document.getElementById('pp').innerHTML = x;
+ }
