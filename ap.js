@@ -663,15 +663,57 @@
 // function original(){document.getElementById('btn').style.width = '';}
 // ____________________________________________________________________________________________
 // ques no 50
-let count = 0;
-function updateCounter(){document.getElementById('counter').innerHTML = count;}
+// let count = 0;
+// function updateCounter(){document.getElementById('counter').innerHTML = count;}
 
-function increment(){count++;
-    updateCounter()
-}
-function decrement(){count--;
-    updateCounter();
-}
-function reset(){count = 0;
-    updateCounter();
-}
+// function increment(){count++;
+//     updateCounter()
+// }
+// function decrement(){count--;
+//     updateCounter();
+// }
+// function reset(){count = 0;
+//     updateCounter();
+// }
+// _________________________________________________________________________________________
+// ques no 51
+// Change Text
+// Task:
+// Create a <p> with text: Hello World!
+// Add a button: Change Text
+// When you click the button, change the <p> text to: Hello JavaScript!
+// ___________
+// ans 
+// function changeText(){ document.getElementById('para').innerHTML = 'Hello JavaScript';
+
+// }
+// __________________________________________________________________________________
+// ques no 52
+// Change Color
+// Task:
+// Create a <h1> with text: Welcome!
+// Add a button: Change Color
+// When you click the button, change the <h1> text color to red.
+// ______________________________
+// ans 
+// function changeColor(){document.getElementById('heading').style.color = 'red';}
+// _________________________________________________________________________________
+// ques no 53
+// Write a function changeHeading that changes the <h1> text to "Welcome to JavaScript!" using .innerHTML.
+// _____________
+// ans 
+// function changeText(){document.getElementById('heading').innerHTML = 'Welcome to backend learning';}
+// ________________________________________________________________________________________
+// ques no 54
+// Get Value and Show in a <p>
+// Question:
+// Create an <input>, a <button>, and an empty <p>.
+// When you click the button, get the input value and set it as the paragraph 
+// text.
+// 👉 What you should get:
+// When you type “I love JS” and click the button, the <p> shows: I love JS
+// _________________
+// ans 
+// function pushValue(){let x = document.getElementById('inp').value;
+//     document.getElementById('pp').innerHTML = x;
+// }
